@@ -1,0 +1,217 @@
+.scontainer {
+    background-color: rgb(198, 243, 191);
+    height: 100vh; 
+    width: 200px;
+    list-style: none;
+    padding: 10px;
+    overflow: none;
+    align-items: start;
+    position: sticky;
+    position: fixed;
+    top: 10%;
+    user-select: none;
+  }
+  
+  .scontainer li {
+    display: flex;
+    align-items: center;
+    user-select: none;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  .menu-list li {
+    margin-bottom: 8px; 
+    margin-top: 2px;
+  }
+  
+  .menu-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 5px; 
+    border-radius: 4px;
+    height: 50px;
+    user-select: none;
+
+  }
+  .not-menu-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 5px; 
+    border-radius: 4px;
+    background-color: rgb(240, 118, 128);
+
+  }
+  
+  .menu-list li:hover,
+  .menu-list li:focus {
+    background-color: rgb(133, 240, 118);
+    padding: 1px; 
+    border-radius: 2px;
+  }
+  
+  .scontainer img {
+    width: 20px; 
+    height: 20px;
+    border-radius: 10px; 
+    margin-right: 2px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    user-select: none;
+
+  }
+  
+  .scontainer-P {
+    font-size: 20px;
+    font-weight: 5000;
+    margin-left: -2px; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    gap: 2px;
+    cursor: pointer;
+    padding: 10px; 
+    border-radius: 8px;
+    color: #626262;
+    
+  }
+  
+
+  .scontainer-Pp {
+    font-size: 40px;
+    font-weight: 50;
+    margin-left: 3px; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 10px; 
+    border-radius: 8px;
+    text-decoration: underline;
+    text-decoration-color: rgb(140, 143, 140);
+    border: none;
+    border-radius: 2px;
+    user-select: none;
+  }
+
+  .scontainer-P:hover {
+    background: linear-gradient(to left, violet, blue, orange, red);
+    background-clip: text;
+    color: transparent;
+  }
+
+
+  .scontainer-Pp:hover {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  }
+  .onclick{
+    background-color: rgb(133, 240, 118);
+  }
+
+/*Service */
+
+.menu {
+    left : 15%;
+    top: 20%;
+    position: absolute;
+    top: 65px;
+    max-height: 150vh;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+  }
+  .menu .menuTitle {
+    font-family: cursive;
+    font-size: 60px;
+  }
+   
+  .menuList {
+    width: 65vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+   
+   
+  .menuItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .menuItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+   
+  .menuItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
+  .menuItem h1{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    color: red;
+  }
+  .menuItem p {
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-left: 7px;
+    margin-bottom: 3px;
+  }
+   
+  @media only screen and (max-width: 1300px) {
+    .menuList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+   
+  @media only screen and (max-width: 800px) {
+    .menuList {
+      grid-template-columns: 1fr;
+    }
+  }
+
+.vbutton {
+    background-color: #59ee70;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 5px; 
+    margin-left: 110px;
+}
+.gbutton {
+    background-color: #b8dbf0;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 10px; 
+
+}
+

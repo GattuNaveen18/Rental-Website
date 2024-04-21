@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 30px;
+    background-color: #fa675d;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: #3c009d;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 30px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forget-password{
+    padding-left: 2px;
+    margin-top: 20px;
+    color: #797979;
+    font-size: 18px;
+    margin-left: -1px;
+}
+
+.forget-password span{
+    color: #4c00b4;
+    cursor: pointer;
+    margin-left: -1px;
+
+}
+.submit-container{
+    display: flex;
+    gap:30px;
+    margin: 20px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: black;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.submit-grey{
+    background: #eaeaea;
+    color: #676767;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 400;
+}
+.ErrorMessage {
+    align-items: center;
+    text-align: center;
+    color:black;
+    margin-top: 1px; /* Adjust the margin-top value as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  

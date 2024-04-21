@@ -1,0 +1,12 @@
+;WITH CTE AS (
+    SELECT
+        interactionId,
+        TranscriptionId,
+        ROW_NUMBER() OVER (PARTITION BY interactionId ORDER BY (SELECT NULL)) AS RowNumber
+    FROM
+        rpt.SentimentAnalysis 
+)
+--select * from cte WHERE RowNumber > 1;
+
+
+DELETE FROM cte  WHERE RowNumber > 1;

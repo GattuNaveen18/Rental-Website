@@ -1,0 +1,236 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-top: 2;
+    height: 60px; 
+    padding: 0 20px; 
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    user-select: none;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.nav-logo img{
+    border-radius:50% ;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-logo p{
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    font-style: normal;
+}
+.nav-logo p{
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+background-clip: text;
+color: transparent;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.nav-menuclick{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+background-clip: text;
+color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    text-decoration: none;
+
+    
+}
+
+.nav-menu li:hover {
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+    background-clip: text;
+    color: transparent;
+  }
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(255, 65, 65);
+}
+
+.nav-login-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.nav-login-button{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border:  1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav-cart{
+    margin-top: 10px;
+}
+.nav-cart-count{
+    width: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 11px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: -75px;
+}
+a, .Link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Link:hover, a:hover {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 65px;
+    right:10%;
+    width: 320px;
+    max-height: 500px;
+    overflow: hidden;
+    /* background-color: #f50404; */
+    border: 3px solid palevioletred;
+}
+
+.notsub-menu-wrap{
+    position: absolute;
+    top: 65px;
+    right:10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+
+.sub-menu{
+    background: white;
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h3{
+    font-weight: 500;
+}
+.user-info img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+    height: 20px;
+}
+.sub-menu-link img{
+    width: 20px;
+    height: 20px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translate(5px);
+}
+
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+.sub-menu span{
+    cursor: pointer;
+}

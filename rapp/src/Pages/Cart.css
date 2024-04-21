@@ -1,0 +1,361 @@
+.ccontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.cul {
+
+  list-style: none;
+  padding: 0;
+}
+details{
+  display: flex;
+}
+
+.cul li {
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.img1 {
+  margin-right: 5px;  
+  margin-bottom: -1px;
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+.img1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 180px;
+  margin-left: 100px;
+  font-size: 25px;
+  white-space: pre-line; 
+  color: rgb(238, 23, 7);
+}
+
+.details:nth-child(even) {
+  background-color: #f8f7f7; 
+}
+
+.details span {
+  font-weight: bold;
+}
+
+.details span {
+  font-weight: bold;
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.yButton,
+.xButton,
+.vButton{
+  margin-left: 50px;
+  height: 30px;
+  width: 30px;
+  margin-top: 80px;
+  margin-right: -10px;
+  border-radius: 12px;
+  border: 1px solid rgb(12, 12, 12);
+  cursor: pointer;
+}
+.vButton:hover{
+  background-color: green;
+}
+.yButton:hover{
+  background-color: orange;
+}
+h2{
+  margin-left: 50px;
+  margin-top: 60px;
+  margin-right: 2px;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+h6 {
+  margin-top: 4px;
+  margin-left: 170px;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1{
+  margin-top: -2px;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4{
+  margin-right: 120px;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.title h1,
+.title h4 {
+  margin: 5; 
+}
+
+.separator {
+  display: flex;
+  margin-bottom: -1px;
+  border-top: 1px solid #525151; /* or any other color you prefer */
+}
+
+.pButton{
+  width: 200px;
+  height: 40px;
+  margin-left: 700px;
+  margin-top: 25px;
+  margin-right: 2px;
+  background-color: yellow;
+  font-size: 25px;
+  cursor: pointer;
+}
+.pButton:hover{
+  background-color: green;
+}
+
+.total{
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 20px;
+  color: black;
+}
+
+.Booking{
+    position: fixed;
+    top : 20%;
+    right: 25%;
+    width: 600px;
+    height: 400px;
+    max-height: 550px;
+    /* background-color : rgb(238, 238, 245); */
+    background-color: rgb(235, 238, 235);
+    border-radius: 10px;  
+    border: 2px solid black;
+    overflow: hidden;
+}
+.NotBooking{
+  position: fixed;
+  top : 20%;
+  right: 25%;
+  width: 600px;
+  height: 400px;
+  max-height: 0px;
+  /* background-color : rgb(238, 238, 245); */
+  background-color: rgb(209, 105, 68);
+  border-radius: 10px;  
+  overflow: hidden;
+}
+
+
+.tle{
+  margin-left: 20px;
+  margin-top: 2px;
+  color: rgb(58, 38, 58);
+  font-size: 20px;
+}
+
+form {
+  width: 99%;
+  input {
+      width: 100%;
+      min-height: 25px;
+      border: 0;
+      font-size: 1rem;
+      letter-spacing: .15rem;
+      font-family: "Arimo";
+      margin-top: 5px;
+      color: maroon;
+      border-radius: 4px;
+  }
+
+  label {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: maroon;
+  }
+}
+.name {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.address-info {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+      width: 30%;
+  }
+}
+
+.CardDetails{
+  display: flex;
+}
+.cancel{
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 420px;
+  background-color: yellow;
+}
+.cancel:hover{
+  background-color: red;
+}
+.next{
+  width: 80px;
+  height: 25px;
+  background-color: yellow;
+}
+.next:hover{
+  background-color: green;
+}
+.sscontainer
+{
+  position: fixed;
+    top : 20%;
+    right: 25%;
+    width: 600px;
+    height: 400px;
+    max-height: 550px;
+    /* background-color : rgb(238, 238, 245); */
+    background-color: rgb(240, 238, 238);
+    border-radius: 10px;  
+    border: 2px solid black;
+    overflow: hidden;
+}
+.notsscontainer
+{
+    position: fixed;
+    top : 20%;
+    right: 25%;
+    width: 600px;
+    height: 400px;
+    max-height: 0px;
+    /* background-color : rgb(238, 238, 245); */
+    background-color: rgb(240, 238, 238);
+    border-radius: 10px;  
+    overflow: hidden;
+}
+
+
+
+.chkbox{
+  display: flex;
+  list-style: none;
+  margin-left: 15px;
+}
+.chk{
+  margin-bottom: 70px;
+}
+.notconfirm{
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 80px;
+  margin-right: 1px;
+  height: 30px;
+  border-radius: 10px;
+ 
+}
+.confirm{
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 80px;
+  margin-right: 1px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: green;
+}
+.Scqancel{
+  margin-top: 60px;
+  margin-left: 80px;
+  width: 80px;
+  margin-right: 1px;
+  height: 30px;
+  border-radius: 10px;
+}
+.Scqancel:hover{
+  background-color: red;
+}
+
+.SucContainer{
+    position: fixed;
+    top : 20%;
+    right: 25%;
+    width: 600px;
+    height: 400px;
+    max-height: 550px;
+    /* background-color : rgb(238, 238, 245); */
+    background-color: rgb(245, 243, 243);
+    border-radius: 10px;  
+    border: 2px solid black;
+    overflow: hidden;
+    align-items: center;
+}
+.notSucContainer{
+  position: fixed;
+    top : 20%;
+    right: 25%;
+    width: 600px;
+    height: 400px;
+    max-height: 0px;
+    /* background-color : rgb(238, 238, 245); */
+    background-color: rgb(245, 243, 243);
+    border-radius: 10px;  
+    overflow: hidden;
+    align-items: center;
+}
+
+i {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: 250px;
+  text-shadow: 0 0 10px rgba(40, 167, 69, 0.8); 
+  border-radius: 50%;
+
+}
+.smessage{
+  color: green;
+  text-decoration: none;
+  margin-left: 230px;
+}
+.pmessage{
+  margin-left: 220px;
+  color: orange;
+}
+.cshopping{
+  margin-left: 260px;
+}

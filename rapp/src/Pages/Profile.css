@@ -1,0 +1,57 @@
+.pcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vh;
+    background-color: #fa675d;
+    border-radius: 20px;
+    margin: 100px auto auto auto;
+  }
+  
+  .pprofile-box {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .pprofile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .pbutton {
+    background-color: white;
+    color: #ff574a;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pbutton-css {
+    background: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .ptext {
+    margin-top: 1px;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: black;
+    cursor: pointer;
+  }
+  
